@@ -22,11 +22,11 @@ java Server <host_name> <port_address> [register <plate_number> <owner_name> | l
 
 where <host_name> is the name of the host running the server;
       
-      <port_number> is the server port;
+and <port_number> is the server port;
       
-      <plate_number> is the plate number you which to register or lookup; 
+and <plate_number> is the plate number you which to register or lookup; 
       
-      <owner_name> is the name of the owner you wish to register.
+and <owner_name> is the name of the owner you wish to register.
 
 
 You may need to compile before running by using:
