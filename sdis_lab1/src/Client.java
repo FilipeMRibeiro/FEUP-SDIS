@@ -16,9 +16,6 @@ public class Client {
 			System.out.println("Please try as follows: java Client <host_name> <port_number> [register <plate_number> <owner_name> | lookup <plate_number>]");;
 			return;
 		}
-		else if{
-			System.out.println(esta);
-		}
 		else if(args[2].compareTo("register") == 0 && args.length != 5) {
 			System.out.println("Error. Wrong number of arguments for register command.");
 			System.out.println("Please try as follows: java Client <host_name> <port_number> register <plate_number> <owner_name>");;
